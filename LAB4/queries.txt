@@ -1,0 +1,38 @@
+-----------------------------------------------Q.1------------------------------------------------
+
+select count(distinct driver_id#)
+from owns natural join participated natural join accident
+where extract(year from accd_date)='2022'; -----> Here we are checking for 2022 adjust accordingly.
+
+-----------------------------------------------Q.2------------------------------------------------
+
+select count(regno) 
+from car natural join participated
+where model='Hyundai'; -----> Here we are checking for Hyundai, you can confirm once with Bentley.
+
+-----------------------------------------------Q.3------------------------------------------------
+
+select distinct driver_id#,count(report_number),sum(damage_amount) Total_damage
+from participated
+group by driver_id#
+order by Total_damage desc;
+
+-----------------------------------------------Q.4------------------------------------------------
+
+select driver_id#,extract(year from accd_date) year_accident,count(report_number) no_of_accidents
+from participated natural join accident
+group by driver_id#, extract(year from accd_date)
+having count(report_number) > 1; ----> For greater than 1 as i don't have values for greater than 2
+
+                 **** to test ****
+
+insert into accident values(999,TO_DATE('2012-12-12','yyyy-mm-dd'),'Patna');
+insert into participated values('ID292','car129',999,10000);
+
+**** Now run the query once more you will see our change is reflected as one more accident by   ID292 in 2012 ****
+
+-----------------------------------------------Q.5------------------------------------------------
+
+select driver_id# 
+from person 
+where driver_id# not in (select driver_id# from participated);

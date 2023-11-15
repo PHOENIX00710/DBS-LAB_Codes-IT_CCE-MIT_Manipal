@@ -1,0 +1,37 @@
+create table person(
+    driver_id# varchar(30) primary key,
+    name varchar(50),
+    address varchar(100)
+);
+
+create table car(
+    regno varchar(20) primary key,
+    model varchar(30),
+    year int
+);
+
+create table owns(
+    driver_id# varchar(30),
+    regno varchar(20),
+    primary key (driver_id#,regno),
+    foreign key(driver_id#)
+    references person(driver_id#) on delete cascade,
+    foreign key(regno) references car(regno) on delete cascade
+);
+
+create table accident(
+    report_number int primary key,
+    accd_date date,
+    location varchar(50)
+);
+
+create table participated(
+    driver_id# varchar(30),
+    regno varchar(20),
+    report_number int,
+    damage_amount int,
+    primary key(driver_id#,regno,report_number),
+    foreign key(driver_id#) references person(driver_id#) on delete cascade,
+    foreign key(regno) references car(regno) on delete cascade,
+    foreign key(report_number) references accident(report_number) on delete cascade
+);

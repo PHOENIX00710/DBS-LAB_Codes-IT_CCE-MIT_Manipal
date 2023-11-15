@@ -1,0 +1,39 @@
+insert into person values('ID292','Swapnil','Patna');
+insert into person values('ID410','Srijan','Patna');
+insert into person values('ID084','Rishabh','Delhi');
+insert into person values('ID090','Kirti','Delhi');
+insert into person values('ID005','Atyab','Gaya');
+insert into person values('ID006','Ausaf','Manipal');
+
+insert into car values('car121','Bentley',1999);
+insert into car values('car123','Bentley',1999);
+insert into car values('car331','Hyundai',2003);
+insert into car values('car126','Bentley',2001);
+insert into car values('car127','Volvo',1999);
+insert into car values('car129','Bentley',2011);
+insert into car values('car131','Hyundai',1989);
+insert into car values('car199','Verna',1999);
+
+insert into owns values('ID292','car121');
+insert into owns values('ID292','car129');
+insert into owns values('ID090','car199');
+insert into owns values('ID410','car331');
+insert into owns values('ID006','car131');
+insert into owns values('ID005','car123');
+insert into owns values('ID410','car126');
+
+insert into accident values(12,TO_DATE('2022-01-01','yyyy-mm-dd'),'Patna');
+insert into accident values(121,TO_DATE('2012-07-01','yyyy-mm-dd'),'Patna');
+insert into accident values(122,TO_DATE('2022-07-03','yyyy-mm-dd'),'Patna');
+insert into accident values(123,TO_DATE('1999-11-01','yyyy-mm-dd'),'Delhi');
+insert into accident values(124,TO_DATE('2020-06-09','yyyy-mm-dd'),'Hyderabad');
+insert into accident values(125,TO_DATE('2022-01-01','yyyy-mm-dd'),'Hyderabad');
+insert into accident values(126,TO_DATE('2003-07-07','yyyy-mm-dd'),'Pune');
+
+insert into participated values('ID292','car121',12,2000);
+insert into participated values('ID292','car129',121,250);
+insert into participated values('ID292','car126',126,3000);
+insert into participated values('ID006','car131',122,1000);
+insert into participated values('ID090','car199',125,1000);
+insert into participated values('ID005','car123',123,0);
+insert into participated values('ID410','car331',124,200);

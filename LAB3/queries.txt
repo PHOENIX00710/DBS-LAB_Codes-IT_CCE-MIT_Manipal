@@ -1,0 +1,31 @@
+-----------------------------Q.3--------------------------------
+
+update participated set damage_amount=25000 where regno='car121' and report_number=12;
+commit;
+
+-----------------------------Q.4--------------------------------
+
+delete from accident where extract(year from accd_date) = '2003';
+commit;
+
+-----------------------------Q.5----------------------------------
+
+alter table person 
+add age varchar(20);
+
+desc person ---> To check
+
+alter table person 
+drop column age;
+
+desc person ---> To check
+
+-----------------------------Q.6--------------------------------
+
+alter table accident
+add constraint legality
+check(report_number > 0);
+
+              ***To confirm the working of legality constraint***
+
+insert into accident values (0,TO_DATE('2023-11-15','yyyy-mm-dd'),'Manipal'); 
