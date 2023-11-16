@@ -1,0 +1,18 @@
+D:\210911292\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\210911292\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\210911292\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\210911292\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\210911292\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\210911292\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\210911292\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\210911292\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\210911292\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\HP\OneDrive - Manipal Academy of Higher Education\DBMS\queries\VC#_Basic_Operations(CRUD&Functions)\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\HP\OneDrive - Manipal Academy of Higher Education\DBMS\queries\VC#_Basic_Operations(CRUD&Functions)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\HP\OneDrive - Manipal Academy of Higher Education\DBMS\queries\VC#_Basic_Operations(CRUD&Functions)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\HP\OneDrive - Manipal Academy of Higher Education\DBMS\queries\VC#_Basic_Operations(CRUD&Functions)\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\HP\OneDrive - Manipal Academy of Higher Education\DBMS\queries\VC#_Basic_Operations(CRUD&Functions)\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\HP\OneDrive - Manipal Academy of Higher Education\DBMS\queries\VC#_Basic_Operations(CRUD&Functions)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\HP\OneDrive - Manipal Academy of Higher Education\DBMS\queries\VC#_Basic_Operations(CRUD&Functions)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\HP\OneDrive - Manipal Academy of Higher Education\DBMS\queries\VC#_Basic_Operations(CRUD&Functions)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\HP\OneDrive - Manipal Academy of Higher Education\DBMS\queries\VC#_Basic_Operations(CRUD&Functions)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache

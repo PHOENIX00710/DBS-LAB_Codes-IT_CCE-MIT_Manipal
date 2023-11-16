@@ -1,17 +1,51 @@
+** Refer to q'i'.sql in folder for the PL/SQL statements where 'i' is the question number **
+
 ----------------------------------------Q.2-----------------------------------------------------
 
-                           *****To Enable Trigger****
-
-@E:/DBS/plsql_statements/lab6/q2.sql 
+@E:/DBS/plsql_statements/lab6/q2.sql ---> To Create Trigger
 
 --> Customise the location of file based on your needs after @
 
-alter trigger display_info enable;  -->display_info is name of trigger
-
-
-    ****Refer to q2.sql in plsql folder for the trigger, you can use the following to confirm****
+alter trigger display_info enable;  --> display_info is name of trigger
 
 insert into accident values(69,TO_DATE('2011-09-07','yyyy-mm-dd'),'Assam');
 insert into participated values('ID006','car131',69,10000);
 
 ----------------------------------------Q.3-----------------------------------------------------
+
+@E:/DBS/plsql_statements/lab6/q3.sql -->To create function
+
+--> Customise the location of file based on your needs after @
+
+select return_count(2022) from dual;
+
+----------------------------------------Q.4-----------------------------------------------------
+
+@E:/DBS/plsql_statements/lab6/q4.sql -->To create function
+
+--> Customise the location of file based on your needs after @
+
+exec total_damage_in_year('IT292',2022); or exec total_damage_in_year('IT292',2012);
+
+----------------------------------------Q.5-----------------------------------------------------
+
+@E:/DBS/plsql_statements/lab6/q5.sql -->To create function
+
+--> Customise the location of file based on your needs after @
+
+exec display_accident_info('Delhi'); 
+
+-->This is assuming location is unique according to the wording of the question else we have to use cursor similar to q7.sql
+
+----------------------------------------Q.7-----------------------------------------------------
+
+@E:/DBS/plsql_statements/lab6/q7.sql -->To create procedure
+
+--> Customise the location of file based on your needs after @
+
+                      **To Check**
+
+create table temporary(report_number int,accd_date date,location varchar(30));
+commit;
+
+exec save_on_location('Patna');  ---> Values will be inserted in temporary check
