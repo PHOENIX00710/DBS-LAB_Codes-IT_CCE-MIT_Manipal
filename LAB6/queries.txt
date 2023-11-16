@@ -1,0 +1,17 @@
+----------------------------------------Q.2-----------------------------------------------------
+
+                           *****To Enable Trigger****
+
+@E:/DBS/plsql_statements/lab6/q2.sql 
+
+--> Customise the location of file based on your needs after @
+
+alter trigger display_info enable;  -->display_info is name of trigger
+
+
+    ****Refer to q2.sql in plsql folder for the trigger, you can use the following to confirm****
+
+insert into accident values(69,TO_DATE('2011-09-07','yyyy-mm-dd'),'Assam');
+insert into participated values('ID006','car131',69,10000);
+
+----------------------------------------Q.3-----------------------------------------------------
